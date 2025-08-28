@@ -14,13 +14,167 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      bets: {
+        Row: {
+          bet_type: string
+          id: string
+          match_id: string
+          odds: number
+          placed_at: string
+          potential_winnings: number
+          stake_amount: number
+          status: string
+          user_id: string
+        }
+        Insert: {
+          bet_type: string
+          id?: string
+          match_id: string
+          odds: number
+          placed_at?: string
+          potential_winnings: number
+          stake_amount: number
+          status?: string
+          user_id: string
+        }
+        Update: {
+          bet_type?: string
+          id?: string
+          match_id?: string
+          odds?: number
+          placed_at?: string
+          potential_winnings?: number
+          stake_amount?: number
+          status?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "bets_match_id_fkey"
+            columns: ["match_id"]
+            isOneToOne: false
+            referencedRelation: "matches"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      matches: {
+        Row: {
+          api_match_id: string | null
+          away_odds: number | null
+          away_team: string
+          created_at: string
+          draw_odds: number | null
+          home_odds: number | null
+          home_team: string
+          id: string
+          league: string
+          match_date: string
+          status: string
+          updated_at: string
+        }
+        Insert: {
+          api_match_id?: string | null
+          away_odds?: number | null
+          away_team: string
+          created_at?: string
+          draw_odds?: number | null
+          home_odds?: number | null
+          home_team: string
+          id?: string
+          league: string
+          match_date: string
+          status?: string
+          updated_at?: string
+        }
+        Update: {
+          api_match_id?: string | null
+          away_odds?: number | null
+          away_team?: string
+          created_at?: string
+          draw_odds?: number | null
+          home_odds?: number | null
+          home_team?: string
+          id?: string
+          league?: string
+          match_date?: string
+          status?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          created_at: string
+          full_name: string | null
+          id: string
+          phone_number: string | null
+          updated_at: string
+          user_id: string
+          wallet_balance: number | null
+        }
+        Insert: {
+          created_at?: string
+          full_name?: string | null
+          id?: string
+          phone_number?: string | null
+          updated_at?: string
+          user_id: string
+          wallet_balance?: number | null
+        }
+        Update: {
+          created_at?: string
+          full_name?: string | null
+          id?: string
+          phone_number?: string | null
+          updated_at?: string
+          user_id?: string
+          wallet_balance?: number | null
+        }
+        Relationships: []
+      }
+      transactions: {
+        Row: {
+          amount: number
+          created_at: string
+          id: string
+          payment_method: string | null
+          reference_id: string | null
+          status: string
+          type: string
+          user_id: string
+        }
+        Insert: {
+          amount: number
+          created_at?: string
+          id?: string
+          payment_method?: string | null
+          reference_id?: string | null
+          status?: string
+          type: string
+          user_id: string
+        }
+        Update: {
+          amount?: number
+          created_at?: string
+          id?: string
+          payment_method?: string | null
+          reference_id?: string | null
+          status?: string
+          type?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      update_wallet_balance: {
+        Args: { p_amount: number; p_operation: string; p_user_id: string }
+        Returns: boolean
+      }
     }
     Enums: {
       [_ in never]: never
