@@ -1,0 +1,199 @@
+{"code":"ENOENT","errno":-4058,"level":"error","message":"Database init failed ENOENT: no such file or directory, open 'c:\\Users\\user\\Documents\\Betting web\\backend\\backend\\src\\db\\init.sql'","path":"c:\\Users\\user\\Documents\\Betting web\\backend\\backend\\src\\db\\init.sql","service":"betting-api","stack":"Error: ENOENT: no such file or directory, open 'c:\\Users\\user\\Documents\\Betting web\\backend\\backend\\src\\db\\init.sql'\n    at Object.readFileSync (node:fs:448:20)\n    at initDb (c:\\Users\\user\\Documents\\Betting web\\backend\\src\\server.ts:37:20)\n    at Object.<anonymous> (c:\\Users\\user\\Documents\\Betting web\\backend\\src\\server.ts:43:3)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module.m._compile (c:\\Users\\user\\Documents\\Betting web\\backend\\node_modules\\ts-node\\src\\index.ts:1618:23)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Object.require.extensions.<computed> [as .ts] (c:\\Users\\user\\Documents\\Betting web\\backend\\node_modules\\ts-node\\src\\index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)","syscall":"open","timestamp":"2025-08-28 18:39:49"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:39:49"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:39:49"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:39:49"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:40:35"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:40:35"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:40:35"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:40:35"}
+{"level":"info","message":"::1 - - [28/Aug/2025:15:41:02 +0000] \"GET /health HTTP/1.1\" 200 102 \"-\" \"curl/8.14.1\"","service":"betting-api","timestamp":"2025-08-28 18:41:02"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"betting-api","timestamp":"2025-08-28 18:42:34"}
+{"level":"info","message":"Process terminated","service":"betting-api","timestamp":"2025-08-28 18:42:34"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:42:49"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:42:49"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:42:49"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:42:49"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"betting-api","timestamp":"2025-08-28 18:44:05"}
+{"level":"info","message":"Process terminated","service":"betting-api","timestamp":"2025-08-28 18:44:05"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:49:31"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:49:31"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:49:31"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:49:31"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:57:25"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:57:25"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:57:25"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:57:25"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:57:45"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:57:45"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:57:45"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:57:45"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:58:05"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:58:05"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:58:05"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:58:05"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 18:58:20"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:58:20"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:58:21"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:58:21"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:58:21"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 18:58:40"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:58:41"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:58:41"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:58:41"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:58:41"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 18:58:54"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:58:54"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:58:54"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:58:54"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:58:54"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 18:59:36"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 18:59:36"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 18:59:36"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 18:59:36"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 18:59:36"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 19:00:18"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:00:18"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:00:19"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:00:19"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:00:19"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:00:31 +0000] \"GET /api/odds/live HTTP/1.1\" 200 38 \"-\" \"curl/8.14.1\"","service":"betting-api","timestamp":"2025-08-28 19:00:31"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:00:57 +0000] \"GET /api/matches HTTP/1.1\" 200 157 \"-\" \"curl/8.14.1\"","service":"betting-api","timestamp":"2025-08-28 19:00:57"}
+{"code":"SQLITE_CONSTRAINT_FOREIGNKEY","level":"error","message":"Error in odds route: FOREIGN KEY constraint failed","service":"betting-api","stack":"SqliteError: FOREIGN KEY constraint failed\n    at run (c:\\Users\\user\\Documents\\Betting web\\backend\\src\\utils\\db.ts:24:24)\n    at c:\\Users\\user\\Documents\\Betting web\\backend\\src\\routes\\odds.ts:24:10\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-08-28 19:01:04"}
+{"isOperational":true,"level":"error","message":"Failed to fetch odds","service":"betting-api","stack":"Error: Failed to fetch odds\n    at createError (c:\\Users\\user\\Documents\\Betting web\\backend\\src\\middleware\\errorHandler.ts:62:17)\n    at c:\\Users\\user\\Documents\\Betting web\\backend\\src\\routes\\odds.ts:60:21\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","statusCode":500,"timestamp":"2025-08-28 19:01:04"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:01:04 +0000] \"GET /api/odds/match/test-match-123 HTTP/1.1\" 500 359 \"-\" \"curl/8.14.1\"","service":"betting-api","timestamp":"2025-08-28 19:01:04"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 19:01:22"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:01:22"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:01:22"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:01:22"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:01:22"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 19:01:41"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:01:41"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:01:41"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:01:41"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:01:41"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:01:48 +0000] \"GET /api/odds/match/test-match-123 HTTP/1.1\" 200 208 \"-\" \"curl/8.14.1\"","service":"betting-api","timestamp":"2025-08-28 19:01:48"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 19:06:51"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:06:52"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:06:52"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:06:52"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:06:52"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 19:08:07"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:08:08"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:08:08"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:08:08"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:08:08"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 19:08:31"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:08:31"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:08:31"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:08:31"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:08:31"}
+{"level":"info","message":"Odds service initialized - API Key: Missing","service":"betting-api","timestamp":"2025-08-28 19:09:01"}
+{"level":"info","message":"API Key value: ","service":"betting-api","timestamp":"2025-08-28 19:09:01"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 19:09:01"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:09:02"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:09:02"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:09:02"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:09:02"}
+{"level":"info","message":"Odds service initialized - API Key: Missing","service":"betting-api","timestamp":"2025-08-28 19:09:17"}
+{"level":"info","message":"API Key value: ","service":"betting-api","timestamp":"2025-08-28 19:09:17"}
+{"level":"warn","message":"ODDS_API_KEY not configured. Odds service will use fallback data.","service":"betting-api","timestamp":"2025-08-28 19:09:17"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:09:17"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:09:17"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:09:17"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:09:17"}
+{"level":"info","message":"Odds service initialized - API Key: Present","service":"betting-api","timestamp":"2025-08-28 19:09:36"}
+{"level":"info","message":"API Key value: 78af80e96653afed1d0bb6401cffd4af","service":"betting-api","timestamp":"2025-08-28 19:09:36"}
+{"level":"info","message":"ODDS_API_KEY is configured. Will attempt to fetch real data from API.","service":"betting-api","timestamp":"2025-08-28 19:09:36"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:09:37"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:09:37"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:09:37"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:09:37"}
+{"level":"info","message":"Odds service initialized (lazy loading)","service":"betting-api","timestamp":"2025-08-28 19:09:51"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:09:52"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:09:52"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:09:52"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:09:52"}
+{"level":"info","message":"Odds service initialized (lazy loading)","service":"betting-api","timestamp":"2025-08-28 19:10:06"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:10:06"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:10:06"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:10:06"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:10:06"}
+{"level":"info","message":"Odds service config loaded - API Key: Present","service":"betting-api","timestamp":"2025-08-28 19:10:39"}
+{"level":"info","message":"API Key value: \"78af80e96653afed1d0bb6401cffd4af\"","service":"betting-api","timestamp":"2025-08-28 19:10:39"}
+{"level":"info","message":"ODDS_API_KEY is configured. Will attempt to fetch real data from API.","service":"betting-api","timestamp":"2025-08-28 19:10:39"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:10:40 +0000] \"GET /api/odds/match/arsenal-chelsea HTTP/1.1\" 200 210 \"-\" \"curl/8.14.1\"","service":"betting-api","timestamp":"2025-08-28 19:10:40"}
+{"level":"info","message":"Odds service initialized (lazy loading)","service":"betting-api","timestamp":"2025-08-28 19:11:21"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:11:22"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:11:22"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:11:22"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:11:22"}
+{"level":"info","message":"Odds service initialized (lazy loading)","service":"betting-api","timestamp":"2025-08-28 19:14:44"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:14:44"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:14:45"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:14:45"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:5173","service":"betting-api","timestamp":"2025-08-28 19:14:45"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:15:03 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 200 156 \"-\" \"curl/8.14.1\"","service":"betting-api","timestamp":"2025-08-28 19:15:03"}
+{"level":"info","message":"Odds service initialized (lazy loading)","service":"betting-api","timestamp":"2025-08-28 19:36:04"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:36:04"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:36:04"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:36:04"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"betting-api","timestamp":"2025-08-28 19:36:04"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:36:50 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 200 156 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:36:50"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:37:08 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:37:08"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:07 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:07"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:11 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:11"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:12 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:12"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:12 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:12"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:12 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:12"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:12 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:12"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:13 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:13"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:13 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:13"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:13 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:13"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:13 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:13"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:13 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:13"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:14 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:14"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:14 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:14"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:14 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:14"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:38:14 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:38:14"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:06 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:06"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:11 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:11"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:12 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:12"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:12 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:12"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:19 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:19"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:20 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:20"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:20 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:20"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:20 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:20"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:37 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:37"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:37 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:37"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:38 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:38"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:38 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:38"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:39:38 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:39:38"}
+{"level":"info","message":"Odds service initialized (lazy loading)","service":"betting-api","timestamp":"2025-08-28 19:42:40"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:42:40"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:42:41"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:42:41"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"betting-api","timestamp":"2025-08-28 19:42:41"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:42:46 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:42:46"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:43:25 +0000] \"GET /api/matches/premier-league?limit=2 HTTP/1.1\" 200 116 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:43:25"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:43:25 +0000] \"GET /api/matches/champions-league?limit=2 HTTP/1.1\" 200 116 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:43:25"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:43:25 +0000] \"GET /api/matches/la-liga?limit=2 HTTP/1.1\" 200 116 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:43:25"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:43:25 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:43:25"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:43:43 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:43:43"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:44:01 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:44:01"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:45:15 +0000] \"GET /api/matches/premier-league?limit=2 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:45:15"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:45:15 +0000] \"GET /api/matches/la-liga?limit=2 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:45:15"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:45:15 +0000] \"GET /api/matches/champions-league?limit=2 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:45:15"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:45:15 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:45:15"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:45:21 +0000] \"GET /api/matches/premier-league?limit=10 HTTP/1.1\" 200 117 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:45:21"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:45:25 +0000] \"GET /api/matches/la-liga?limit=10 HTTP/1.1\" 200 117 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:45:25"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:46:18 +0000] \"GET /api/matches/premier-league?limit=2 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:46:18"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:46:18 +0000] \"GET /api/matches/la-liga?limit=2 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:46:18"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:46:18 +0000] \"GET /api/matches/champions-league?limit=2 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:46:18"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:46:18 +0000] \"GET /api/matches?limit=6 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:46:18"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:46:20 +0000] \"GET /api/matches/la-liga?limit=10 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:46:20"}
+{"level":"info","message":"::1 - - [28/Aug/2025:16:46:23 +0000] \"GET /api/matches/premier-league?limit=10 HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"betting-api","timestamp":"2025-08-28 19:46:23"}
+{"level":"info","message":"Odds service initialized (lazy loading)","service":"betting-api","timestamp":"2025-08-28 19:48:01"}
+{"level":"info","message":"✅ Database initialized","service":"betting-api","timestamp":"2025-08-28 19:48:01"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"betting-api","timestamp":"2025-08-28 19:48:01"}
+{"level":"info","message":"📱 Environment: development","service":"betting-api","timestamp":"2025-08-28 19:48:01"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8081","service":"betting-api","timestamp":"2025-08-28 19:48:01"}
