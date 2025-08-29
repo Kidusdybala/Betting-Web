@@ -250,4 +250,5 @@ Future enhancements could include:
 
 ---
 
-**GoalHut** - Experience the thrill of Ethiopian football betting! ⚽💰
+**Ethio Bet
+** - Experience the thrill of Ethiopian football betting! ⚽💰
