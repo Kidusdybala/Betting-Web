@@ -2,7 +2,11 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { Trophy, Star, Crown } from "lucide-react";
+import { Star, Crown } from "lucide-react";
+
+const LogoIcon = () => (
+  <img src="/logos/logo.jpg" alt="Logo" className="h-8 w-8 object-contain" />
+);
 
 interface LeagueNavigationProps {
   onLeagueSelect: (league: string) => void;
@@ -14,7 +18,7 @@ const LeagueNavigation = ({ onLeagueSelect, selectedLeague }: LeagueNavigationPr
     {
       id: 'premier-league',
       name: 'Premier League',
-      icon: Trophy,
+      icon: LogoIcon,
       color: 'bg-blue-500/20 text-blue-600 border-blue-500/30 hover:bg-blue-500/30',
       description: 'English Premier League'
     },

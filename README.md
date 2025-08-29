@@ -2,6 +2,17 @@
 
 A full-stack football betting application built with React, TypeScript, Node.js, Express, and SQLite. Features real-time odds, secure authentication, and Ethiopian payment integration.
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Payment Page
+![Payment Page](screenshots/payment.png)
+
 ## 🚀 Features
 
 ### ✅ Completed Features
@@ -46,6 +57,7 @@ betting-web/
 │   │   └── hooks/          # Custom React hooks
 │   ├── package.json
 │   └── vite.config.ts
+├── screenshots/             # Application screenshots
 ├── start.bat               # Windows startup script
 └── README.md
 ```

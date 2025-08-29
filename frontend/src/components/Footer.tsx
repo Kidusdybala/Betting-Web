@@ -1,4 +1,4 @@
-import { Trophy, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,9 +8,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-gradient-primary p-2 rounded-lg">
-                <Trophy className="h-6 w-6 text-primary-foreground" />
-              </div>
+              <img src="/logos/logo.jpg" alt="GoalHut Logo" className="h-6 w-6 object-contain" />
               <div>
                 <h3 className="font-bold text-lg">GoalHut</h3>
                 <p className="text-xs text-muted-foreground">Ethiopian Betting</p>

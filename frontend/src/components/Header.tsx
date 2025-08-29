@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
-import { Trophy, User, Wallet, LogOut, Settings, BarChart3 } from "lucide-react";
+import { User, Wallet, LogOut, Settings, BarChart3 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 
 const Header = () => {
@@ -24,9 +24,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-gradient-primary p-2 rounded-lg">
-              <Trophy className="h-6 w-6 text-primary-foreground" />
-            </div>
+            <img src="/logos/logo.jpg" alt="GoalHut Logo" className="h-6 w-6 object-contain" />
             <div>
               <h1 className="text-xl font-bold text-foreground">GoalHut</h1>
               <p className="text-xs text-muted-foreground">Ethiopian Betting</p>
